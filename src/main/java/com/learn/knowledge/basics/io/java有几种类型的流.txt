@@ -1,0 +1,18 @@
+（1）字节流 InputStream/OutputStream
+
+ ①FileInputStream/FileOutputStream：文件字节流，用于文件的读写操作
+
+ ②BufferedInputStream/BufferedFileOutputStream：加缓冲区的字节流，用于提高效率
+
+（2）字符流 Reader/Writer
+
+ ①FileReader/FileWriter：文件字符流，用于文本文件的读写操作
+
+ ②BufferedReader/BufferedWriter：加缓冲区的字符流，用于提高效率
+
+（3）转换流 InputStreamReader/OutputStreamWriter
+
+    byte与char的区别
+byte 是字节数据类型 ，是有符号型的，占1 个字节；大小范围为-128—127 。
+char 是字符数据类型 ，是无符号型的，占2字节(Unicode码 ）；大小范围 是0—65535 ；
+char是一个16位二进制的Unicode字符，JAVA用char来表示一个字符 。
